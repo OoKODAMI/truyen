@@ -12,9 +12,9 @@
    ========================================================================= */
 
 const LIBRARY = {
-  title: "Thư Viện Của DAT",
+  title: "Câu chuyện của KODAMI",
   intro: "Nơi tập hợp các bộ truyện do tôi viết. Chọn một bộ để bắt đầu, hoặc xem dòng đọc gợi ý.",
-  author: "DAT",
+  author: "2oKODA",
   year: 2026,
 };
 
@@ -39,7 +39,7 @@ const STORIES = [
     summary: "Cô bé Aurora lớn lên cùng ông bà nuôi, học bài học đầu đời về tình thân và sách vở.",
     about:
       "Một câu chuyện ấm áp về Aurora — cô bé được ông Muller (thợ mộc) và bà Oliva nuôi nấng. " +
-      "Lấy cảm hứng từ giọng văn Nguyễn Nhật Ánh: hoài niệm, dịu, để cảm xúc lặng lẽ thấm.",
+      "Hoài niệm, dịu, để cảm xúc lặng lẽ thấm.",
     readingOrder: 1,
     chapters: [
       { id: "01", num: "Chương 1", title: "Tên chương một",   file: "stories/aurora/chuong-01.md" },
