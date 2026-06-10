@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Lora:ital,wght@0,400..600;1,400..500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#timeline">Tới timeline</a>
+  <nav class="nav">
+    <a class="nav__brand" href="index.html" data-lib-title>Thư Viện</a>
+    <a class="nav__link" href="index.html">Thư viện</a>
+    <a class="nav__link" href="timeline.html" aria-current="page">Timeline</a>
+  </nav>
+
+  <main class="wrap">
+    <header class="tl-head">
+      <p class="eyebrow">Dòng đọc</p>
+      <h1 class="tl-head__title">Timeline</h1>
+      <p class="tl-head__sub">Thứ tự gợi ý từ tác giả. Bấm vào một bộ để bắt đầu đọc ngay từ chương đầu.</p>
+    </header>
+    <div class="timeline" id="timeline"></div>
+  </main>
+
+  <footer class="footer">
+    <span>© <span data-year>2026</span> <span data-author>Tác giả</span></span>
+    <a href="index.html">Về thư viện</a>
+  </footer>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>initTimeline();</script>
+</body>
+</html>

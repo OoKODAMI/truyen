@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đọc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Lora:ital,wght@0,400..600;1,400..500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#prose">Vào thẳng nội dung</a>
+
+  <div class="reader-bar">
+    <div class="reader-bar__inner">
+      <a class="reader-bar__back" id="bar-back-lib" href="index.html">← Thư viện</a>
+      <span class="reader-bar__title" id="reader-bar-title"></span>
+      <a class="reader-bar__back" id="bar-back-story" href="#">Mục lục</a>
+    </div>
+    <div class="progress"><div class="progress__fill" id="progress-fill"></div></div>
+  </div>
+
+  <main>
+    <article class="chapter">
+      <header class="chapter__head">
+        <p class="chapter__crumb" id="chapter-crumb"></p>
+        <p class="chapter__num" id="chapter-num"></p>
+        <h1 class="chapter__title" id="chapter-title"></h1>
+        <div class="chapter__meta" id="chapter-meta"></div>
+      </header>
+      <hr class="chapter__rule">
+      <div class="prose" id="prose"></div>
+      <nav class="chapter-nav" id="chapter-nav" aria-label="Điều hướng chương"></nav>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <span>© <span data-year>2026</span> <span data-author>Tác giả</span></span>
+    <a href="index.html">Thư viện</a>
+  </footer>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>initReader();</script>
+</body>
+</html>
