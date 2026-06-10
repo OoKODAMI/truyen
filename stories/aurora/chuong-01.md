@@ -1,6 +1,6 @@
 Đây là đoạn mẫu cho chương đầu tiên của "Aurora". Khi viết thật, bạn xoá hết nội dung này và thay bằng văn của mình.
 
-M��i đoạn cách nhau bằng một dòng trống. *In nghiêng* dùng hai dấu sao, **in đậm** dùng bốn.
+Mỗi đoạn cách nhau bằng một dòng trống. *In nghiêng* dùng hai dấu sao, **in đậm** dùng bốn.
 
 > Lời thoại hoặc câu cần nhấn mạnh sẽ hiện ra với sợi chỉ xanh bên trái như thế này.
 
